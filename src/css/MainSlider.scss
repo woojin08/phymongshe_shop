@@ -2,13 +2,12 @@
 
 .MainSlider {
     position: relative;
-    padding: 10rem 0 0;
+    transform: translateY(-8rem);
+    height: calc(100vh - 18rem);
 
     .slick-track {
         transition-duration: 0.5ms;
     }
-
-
 
     .itm {
         position: relative;
@@ -38,18 +37,19 @@
 
             strong {
                 display: block;
-                margin: 0 0 1rem;
+                margin: 0 0 1rem 0;
                 font-size: 1.4rem;
                 text-transform: uppercase;
+
             }
 
             p {
-                margin: 0 0 2rem;
+                margin: 0 0 2rem 0;
                 font-size: 2.5rem;
             }
 
             .des {
-                margin: 0 0 2rem;
+                margin: 0 0 2rem 0;
                 font-size: 1.8rem;
                 font-weight: 600;
                 text-transform: uppercase;
@@ -73,7 +73,6 @@
             display: inline-block;
             margin: 0 0.5rem;
 
-
             button {
                 width: 4rem;
                 height: 0.4rem;
@@ -81,6 +80,8 @@
                 font-size: 0;
                 border: none;
                 outline: none;
+
+
             }
 
             &.slick-active button {
