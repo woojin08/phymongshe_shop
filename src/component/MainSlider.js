@@ -12,7 +12,7 @@ const MainSlider = () => {
         <div className='MainSlider'>
             <Slider
                 arrows={false}
-                autoplay={true}
+                autoplay={true} s
                 pauseOnDotsHover={false}
                 ref={MainSlider}
                 dots={true}
