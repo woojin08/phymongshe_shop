@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const MainCategory = ({ shopList, category }) => {
     const Mainlist = shopList.filter(it => category === it.cate);
     return (
-        <section className='shopList'>
+        <section className={`shopList ${bg}`}>
             <div className='inner'>
                 {
                     Mainlist.map(it => {
